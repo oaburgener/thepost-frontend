@@ -488,6 +488,23 @@ footer {
   line-height: 1.70;
 }
 /* END ARTICLE STYLE */
+
+/* ADMIN PAGE */
+.articleDelete{
+  font-family: "Lato Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 19px;
+  /* border-bottom: 1px solid lightgray; */
+}
+
+
+
+.admin-button{
+  align:left;
+}
+
+
 /* Media Querries*/
 @media screen and (max-width: 1024px) {
 .imageBig{

@@ -15,11 +15,13 @@ const UserCard = ({ user, getUsers, article, delUser, all_articles, delArticle})
     <Grid>
       <Row className="user_info">
         <Col lg={12}>
-          <ListGroupItem>NAME: {user.first_name} {user.last_name}</ListGroupItem>
-          <ListGroupItem>EMAIL: {user.email}</ListGroupItem>
-          <ListGroupItem>USER RATING: {user.rating}<Button bsSize="small" className='admin-button'
+          <ListGroupItem><Button
+            style={{marginTop:'1px', marginLeft:'4px', marginRight:'7px'}}
+            bsSize="small" className='admin-button'
             onClick={async ()=> {await delUser(user.id)
-              await getUsers()}}>Delete</Button>
+              await getUsers()}}>Delete User</Button>NAME: {user.first_name} {user.last_name} </ListGroupItem>
+          <ListGroupItem>EMAIL: {user.email}</ListGroupItem>
+          <ListGroupItem>USER RATING: {user.rating}
           </ListGroupItem>
           <ListGroupItem>{
             all_articles.map(article =>  {

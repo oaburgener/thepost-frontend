@@ -11,11 +11,12 @@ const DeleteArticle = ({article, delArticle, getArticles}) => {
 
   return (
     <div>
-      <p><span style={{fontSize: '19px'}}> ARTICLE TITLE: {article.title}</span> ARTICLE SUMMARY: {article.summary}
-      </p>
-      <Button  type='button' bsSize="small"  className='admin-button' onClick={
+      <p className="articleDelete"><Button style={{marginLeft:'0', marginRight:'6px'}} type='button' bsSize="small"  className='admin-button' onClick={
         async ()=> { await delArticle(article.id)
-          await getArticles()}}>Delete</Button>
+          await getArticles()}}>Delete Article</Button><span style={{fontWeight: '500'}}> Article Title:</span> {article.title} <br />
+        <span style={{fontWeight: '500'}}> Summary:</span> {article.summary}
+      </p>
+
         </div>
     )
 }
