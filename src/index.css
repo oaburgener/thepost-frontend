@@ -470,7 +470,7 @@ footer {
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
-  padding-bottom:3%
+  padding-bottom:1%
 }
 .header_image{
   width: 89vw;
@@ -481,7 +481,7 @@ footer {
 .article_body{
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 2%;
+  padding-top: 1%;
   text-align: left;
   font-size: 23px;
   font-family: 'EB Garamond', serif;
@@ -582,6 +582,15 @@ footer {
    text-transform: uppercase;
    text-align: left;
    font-size: 30px;
+ }
+ .article_body{
+   padding-left: 8%;
+   padding-right: 8%;
+   padding-top: 1.5%;
+   text-align: left;
+   font-size: 19px;
+   font-family: 'EB Garamond', serif;
+   line-height: 1.50;
  }
  }
 
