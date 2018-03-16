@@ -25,22 +25,21 @@ $ yarn start
 
 ## Navigating the Site
 
-Articles populate the home page and are organized by most trending (a combination of likes and views). A user can filter articles by sport.
+- Articles populate the home page and are organized by most trending (a combination of likes and views). A user can filter articles by sport.
 
-![alt text](./assets/home.png)
-![alt text](./assets/filter.png)
 
-To submit an article, user can navigate to the sign up or login pages.
 
-![alt text](./assets/login.png)
+- To submit an article, user can navigate to the sign up or login pages.
 
-After logging in, the user can read submission guidelines and fill out a form with their editorial content. Their submission will automatically populate on the home page.
 
-![alt text](images/submit.png)
 
-If the user is a designated administrator, they can enter the admin dashboard and view all site users. They can delete articles as well as delete users.
+- After logging in, the user can read submission guidelines and fill out a form with their editorial content. Their submission will automatically populate on the home page.
 
-![alt text](images/admin.png)
+
+
+- If the user is a designated administrator, they can enter the admin dashboard and view all site users. They can delete articles as well as delete users.
+
+
 
 ## Project Planning
 
@@ -48,8 +47,6 @@ Task Management: https://trello.com/b/KntLXos7/profile
 
 Wireframes: https://drive.google.com/open?id=1C3xIMhnjJHsk-MNqIEeKczTdo2P5t8qg
 
-Entity Relationship Diagram
-![alt text](images/erd.png)
 
 ## Technologies
 
