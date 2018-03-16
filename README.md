@@ -27,12 +27,12 @@ $ yarn start
 
 Articles populate the home page and are organized by most trending (a combination of likes and views). A user can filter articles by sport.
 
-![alt text](assets/home.png)
-![alt text](assets/filter.png)
+![alt text](./assets/home.png)
+![alt text](./assets/filter.png)
 
 To submit an article, user can navigate to the sign up or login pages.
 
-![alt text](assets/login.png)
+![alt text](./assets/login.png)
 
 After logging in, the user can read submission guidelines and fill out a form with their editorial content. Their submission will automatically populate on the home page.
 
